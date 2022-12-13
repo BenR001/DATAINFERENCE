@@ -1,0 +1,13 @@
+load("C:/Users/Admin/Downloads/Heart_Disease_Prediction.RData")
+> View(Heart_Disease_Prediction)
+> data <- Heart_Disease_Prediction
+> data$BP <- as.numeric(data$BP)
+> mean_value <- mean(data$BP)
+> data$Age <- as.numeric(data$Age)
+> mean_value2 <- mean(data$Age)
+> median_value_BP <- median(data$BP)
+> median_value_Age <- median(data$Age)
+> variance_value_BP <- var(data$BP)
+> variance_value_Age <- var(data$Age)
+> sd_value_BP <- var(data$BP)
+> sd_value_Age <- var(data$Age)
